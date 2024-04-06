@@ -43,7 +43,7 @@ export function detectResponseType(_contentType = ""): ResponseType {
   return "blob";
 }
 
-export default defineNuxtPlugin(() => {
+export default () => {
   const nullBodyResponses = new Set([101, 204, 205, 304]);
   globalThis.$fetch = globalThis.$fetch.create({
     async onResponse(context) {
@@ -82,4 +82,4 @@ export default defineNuxtPlugin(() => {
       }
     },
   });
-});
+};
