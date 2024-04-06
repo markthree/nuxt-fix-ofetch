@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.12
+
+[compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.11...v0.0.12)
+
+### 🩹 Fixes
+
+- 修复用户端使用  onResponse 时失效, close #1 ([#1](https://github.com/markthree/nuxt-fix-ofetch/issues/1))
+
+### ❤️ Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.11
 
 [compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.10...v0.0.11)
