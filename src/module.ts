@@ -13,7 +13,6 @@ export default defineNuxtModule<ModuleOptions>({
   setup() {
     const resolver = createResolver(import.meta.url);
 
-    // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
-    addPlugin(resolver.resolve("./runtime/fetch"));
+    addPlugin(resolver.resolve("./runtime/fetch.client"));
   },
 });
