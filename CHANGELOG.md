@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.6...v0.0.7)
+
+### 🏡 Chore
+
+- Update release ([e8c8e47](https://github.com/markthree/nuxt-fix-ofetch/commit/e8c8e47))
+
+### ❤️ Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.6
 
 [compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.5...v0.0.6)
