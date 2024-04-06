@@ -1,6 +1,6 @@
 {
   "name": "nuxt-fix-ofetch",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "在 ios qq 浏览器中运行 ofetch",
   "repository": {
     "type": "git",
