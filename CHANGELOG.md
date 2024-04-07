@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.13
+
+[compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.12...v0.0.13)
+
+### 🩹 Fixes
+
+- 提高插件优先级 ([27bf1ff](https://github.com/markthree/nuxt-fix-ofetch/commit/27bf1ff))
+
+### ❤️ Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.12
 
 [compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.11...v0.0.12)
