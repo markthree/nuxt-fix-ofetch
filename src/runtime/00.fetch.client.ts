@@ -46,7 +46,7 @@ export function detectResponseType(_contentType = ""): ResponseType {
 export default () => {
   const nullBodyResponses = new Set([101, 204, 205, 304]);
   const _fetch = globalThis.$fetch;
-  async function $$fetch(arg1, options = {}) {
+  async function $$fetch(arg1, options = {}, ...rest) {
     return await _fetch(arg1, {
       ...options,
       async onResponse(context) {
@@ -82,7 +82,7 @@ export default () => {
           return await options.onResponse(context);
         }
       },
-    });
+    }, ...rest);
   }
 
   globalThis.$fetch = $$fetch.bind(_fetch);

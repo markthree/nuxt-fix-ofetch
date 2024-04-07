@@ -13,6 +13,6 @@ export default defineNuxtModule<ModuleOptions>({
   setup() {
     const resolver = createResolver(import.meta.url);
 
-    addPlugin(resolver.resolve("./runtime/fetch.client"));
+    addPlugin(resolver.resolve("./runtime/00.fetch.client"));
   },
 });
