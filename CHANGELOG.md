@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.14
+
+[compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.13...v0.0.14)
+
+### 🏡 Chore
+
+- Add tea.yaml ([bcddde8](https://github.com/markthree/nuxt-fix-ofetch/commit/bcddde8))
+
+### ❤️ Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.13
 
 [compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.12...v0.0.13)
