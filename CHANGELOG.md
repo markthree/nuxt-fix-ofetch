@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.15
+
+[compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.14...v0.0.15)
+
+### 🩹 Fixes
+
+- 使用 defineNuxtPlugin 包裹 ([dfa2ae7](https://github.com/markthree/nuxt-fix-ofetch/commit/dfa2ae7))
+
+### ❤️ Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.14
 
 [compare changes](https://github.com/markthree/nuxt-fix-ofetch/compare/v0.0.13...v0.0.14)
