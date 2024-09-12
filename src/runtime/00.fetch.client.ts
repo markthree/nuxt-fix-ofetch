@@ -1,5 +1,6 @@
 // @ts-nocheck
 import destr from "destr";
+import { defineNuxtPlugin } from "#app";
 
 export interface ResponseMap {
   blob: Blob;
@@ -43,7 +44,7 @@ export function detectResponseType(_contentType = ""): ResponseType {
   return "blob";
 }
 
-export default () => {
+export default defineNuxtPlugin(() => {
   const nullBodyResponses = new Set([101, 204, 205, 304]);
   const _fetch = globalThis.$fetch;
   async function $$fetch(arg1, options = {}, ...rest) {
@@ -90,4 +91,4 @@ export default () => {
   Object.keys(_fetch).forEach((key) => {
     globalThis.$fetch[key] = _fetch[key];
   });
-};
+});
